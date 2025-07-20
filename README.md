@@ -14,5 +14,13 @@ A Telegram bot that automatically posts messages to groups. You can set a time f
 ## 💠 Run bot on ubunto vps
 - Clone the repo
 ```bash
-  git clone https://github.com/z44d/TgGiftsSniper && cd TgGiftsSniper
+  git clone https://github.com/radfx-2/AutoPublishing && cd AutoPublishing
+```
+- Install dependencies
+```bash
+pip install -r requirements.txt
+```
+- Edit the env file and add my operating information
+```bash
+pip install -r requirements.txt
 ```
