@@ -20,7 +20,22 @@ A Telegram bot that automatically posts messages to groups. You can set a time f
 ```bash
 pip install -r requirements.txt
 ```
-- Edit the env file and add my operating information
+- Edit the `env.example` file and add my operating information
+   - We open the `env.example` file using `nano` or any other `editor`.
 ```bash
-pip install -r requirements.txt
+nano env.example
 ```
+   - `API_KEY` API key from @BotFather
+   - `SUDO` My ID is your Telegram account, you can get it from the bot @myidbot
+
+- Run the bot
+```bash
+ python3 main.py
+```
+- Or I can run it in the background using the `screen`
+```bash
+ screen -dmS AutoPublishing python3 main.py
+```
+- You can change `AutoPublishing` to any name you want.
+
+
